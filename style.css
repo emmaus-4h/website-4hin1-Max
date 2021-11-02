@@ -9,6 +9,11 @@ html, body {
     font: Verdana, Arial, Sans-Serif;
 }
 
+ 
+.ApexLegendsGroup
+{
+ width:300px
+}
 
 main {
     margin: 0 auto;
@@ -85,6 +90,17 @@ nav li a.active {
     background-color: rgb(120, 20, 200);
 }
 
+.zweefLinks
+{
+  width: 300px
+}
+
+div {
+  width:200px;
+  border: 20px rgb:(256, 256, 256);
+  padding:50px;
+  margin:20px; 
+}
 
 
 
