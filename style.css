@@ -97,10 +97,11 @@ nav li a.active {
 
 div {
   width:200px;
-  border: 20px rgb:(256, 256, 256);
+  border: 20px rgb:(255, 255, 255);
   padding:50px;
   margin:20px; 
 }
+
 
 
 
