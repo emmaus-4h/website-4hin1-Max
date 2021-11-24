@@ -65,9 +65,10 @@ a:hover {
 nav ul {
     list-style-type: none;
     margin: auto;
-    padding: 0;
-    background-color: rgb(120, 20, 200);
+    padding: 25px;
+    background-color: ;
     overflow: hidden;
+    border: 25px
 }
 
 nav ul li {
@@ -102,6 +103,8 @@ div {
   margin:20px; 
 }
 
-
+.ash {
+  width: 200px
+}
 
 
