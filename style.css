@@ -91,6 +91,7 @@ nav li a:hover {
 
 nav li a.active {
     background-color: darkblue;
+    transform:;
 }
 
 .zweefLinks
@@ -112,7 +113,6 @@ div {
 .boxed {
   width:100%;
   border:5px solid midnightblue;
-  border-radius:25px
+  border-radius:50px
 }
-
 
