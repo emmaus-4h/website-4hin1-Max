@@ -91,7 +91,6 @@ nav li a:hover {
 
 nav li a.active {
     background-color: darkblue;
-    transform:;
 }
 
 .zweefLinks
@@ -116,3 +115,16 @@ div {
   border-radius:50px
 }
 
+body {
+  background-image: url('https://i.redd.it/x6hoszvincg21.png');
+  height:fit-content;
+}
+
+NavItem {
+ transition:all 2s ease;
+}
+
+NavItem-hover{
+  transform:rotate(-5deg);
+  padding:25px;
+}
