@@ -68,7 +68,7 @@ nav ul {
     padding: 25px;
     background-image:linear-gradient(to right, darkblue, black);
     overflow: hidden;
-    border: 25px
+    border: 25px;
 }
 
 
@@ -82,20 +82,21 @@ nav li a {
     color: white;
     text-align: center;
     padding: 14px 24px;
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 nav li a:hover {
-    background-image:linear-gradient(to right, midnightblue, purple);
-    transform: rotate(15deg) scale(1.25,1.25);
+    color: rgb(0, 255, 200);
+    background-color: rgb(1, 1, 49);
+    transform: rotate(20deg) scale(1.25,1.25);
 }
 
-transition{
-  transition-delay: 2s;
+.transition{
+  transition:all 0.5s ease;
 }
 
 nav li a.active {
-    background-color: darkblue;
+   
 }
 
 .zweefLinks
@@ -117,7 +118,8 @@ div {
 .boxed {
   width:100%;
   border:5px solid midnightblue;
-  border-radius:50px
+  border-radius:50px;
+  background-color:black;
 }
 
 body {
