@@ -66,7 +66,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 25px;
-    background-image:linear-gradient(to right, darkblue, black) ;
+    background-image:linear-gradient(to right, darkblue, black);
     overflow: hidden;
     border: 25px
 }
@@ -81,12 +81,17 @@ nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 24px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-image:linear-gradient(to right, midnightblue, purple);
+    transform: rotate(15deg) scale(1.25,1.25);
+}
+
+transition{
+  transition-delay: 2s;
 }
 
 nav li a.active {
@@ -120,11 +125,3 @@ body {
   height:fit-content;
 }
 
-NavItem {
- transition:all 2s ease;
-}
-
-NavItem-hover{
-  transform:rotate(-5deg);
-  padding:25px;
-}
