@@ -96,7 +96,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-   
+color:royalblue;
 }
 
 .zweefLinks
@@ -127,3 +127,10 @@ body {
   height:fit-content;
 }
 
+.legend1{
+color:transparent;
+}
+
+.legend1 p:hover{
+  color: white;
+}
