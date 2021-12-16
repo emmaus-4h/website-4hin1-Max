@@ -31,6 +31,7 @@ header {
     color: rgb(76, 0, 255);
     text-align: center;
     font-family:copperplate, ;
+    text-shadow:1px 1px 2px cornflowerblue, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 
@@ -115,6 +116,12 @@ div {
   width: 200px;
 }
 
+.ashbox{
+  padding:10px;
+  margin:0px;
+float:left;
+}
+
 .boxed {
   width:100%;
   border:5px solid midnightblue;
@@ -128,27 +135,12 @@ body {
   background-size:cover;
 }
 
-.legend1{
-color:transparent;
-}
-
-p:hover{
-color:white;
-}
-
-transition{
-  transition:0.5s ease;
-}
-
 .bangalore{
   height:200px;
 }
 
-.ahsbox{
-  padding:15px;
-  margin:0px:
-}
-
 .bangalorebox{
-
+  float:left;
+  padding:10px;
+  margin:0px;
 }
