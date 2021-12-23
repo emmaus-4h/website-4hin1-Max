@@ -131,8 +131,9 @@ float:left;
 
 body {
   background-image: url('https://i.redd.it/x6hoszvincg21.png');
-  height:100%;
+  height:fit-content;
   background-size:cover;
+  background-repeat:repeat-y;
 }
 
 .bangalore{
@@ -144,3 +145,24 @@ body {
   padding:10px;
   margin:0px;
 }
+
+.legendsimg{
+  height:370px;
+  border:5px solid midnightblue;
+  box-shadow:10px 10px 5px black;
+}
+
+.legends{
+ padding:0px;
+}
+
+.legendtext{
+  width:500px;
+  margin:auto;
+  border:5px solid midnightblue;
+  padding:25px;
+  background-color:black;
+  border-radius:50px;
+
+}
+
