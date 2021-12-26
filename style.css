@@ -166,3 +166,45 @@ body {
 
 }
 
+.weaponsimg{
+  height:389px;
+  margin:auto;
+  padding:0px;
+  border:solid midnightblue 5px;
+}
+
+.weaponstext{
+  border:solid midnightblue 5px;
+  margin:25px;
+  padding:10px;
+  width:auto;
+  background-color:black;
+}
+
+.mapstext{
+  border:solid midnightblue 5px;
+  margin:25px;
+  padding:10px;
+  width:auto;
+  background-color:black;
+}
+
+.mapsimg{
+  height:388px;
+  margin:auto;
+  padding:0px;
+  border:solid midnightblue 5px;
+}
+
+.cosmeticsimg{
+height:345px;
+border:solid midnightblue 5px;
+margin:auto;
+}
+
+.cosmeticstext{
+  width:auto;
+  border:solid midnightblue 5px;
+  background-color:black;
+  border-radius:50px;
+}
